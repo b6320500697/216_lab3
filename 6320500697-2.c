@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,p,a,time[48]={0},max;
+    int n,i,p,a,k,time[48]={0},max;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
@@ -15,9 +15,9 @@ int main()
         if(max<time[i])
         {
             max=time[i];
-            i;
+            k=i;
         }
     }
-    printf("%d %d",i,time[i]);
+    printf("%d %d",k+1,time[k]);
   return 0;
 }
