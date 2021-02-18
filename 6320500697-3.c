@@ -14,11 +14,6 @@ int main()
         {
             i++;
         }
-        if (n==0)
-        {
-            printf ("%d",n);
-            break;
-        }
     }
     while (1);
     return 0;
