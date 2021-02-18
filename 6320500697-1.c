@@ -7,8 +7,8 @@ int main()
         total=0;
         for(j=0;j<4;j++)
         {
-            scanf("%d" ,&k);
-            total++;
+            scanf("%d",&k);
+            total+=k;
         }
         if(total>max)
         {
