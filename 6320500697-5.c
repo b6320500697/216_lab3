@@ -16,7 +16,7 @@ int main ()
         }
 
     }
-    if (k>3)
+    if (k>3||k<3)
     {
             printf ("%d is not a Lucky Number.",n);
     }
