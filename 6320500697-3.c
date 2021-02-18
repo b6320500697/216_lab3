@@ -1,25 +1,21 @@
 #include <stdio.h>
 int main()
 {
-    int n,n2,i=2;
+    int n,n2,i;
     scanf ("%d",&n);
-    do
+    if (n==1)
+        {
+            printf ("1\n");
+        }
+    for(i=2;n!=1;i++)
     {
-        if (n==1)
+
+        while(n%i == 0)
         {
-            printf ("0");
-            break;
-        }
-        else if(n%i==0)
-        {
+            n = n/i;
             printf("%d\n",i);
-            n=n/i;
-        }
-        else
-        {
-            i++;
         }
     }
-    while (1);
+    printf ("0");
     return 0;
 }
