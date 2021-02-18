@@ -10,14 +10,19 @@ int main ()
         {
             k++;
         }
-        if (k>3)
-        {
-            printf ("%d is not a Lucky Number.",n);
-        }
         else
         {
-             printf ("%d is a Lucky Number",n);
+            break;
         }
+
+    }
+    if (k>3)
+    {
+            printf ("%d is not a Lucky Number.",n);
+    }
+        else
+    {
+             printf ("%d is a Lucky Number",n);
     }
     return 0;
 }
